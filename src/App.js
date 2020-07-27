@@ -53,7 +53,6 @@ class Board extends React.Component {
   render() {
     return (
       <div>
-        {for (let x = y; x < gameConstants; i++)}
         <div className="board-row">
           {this.renderSquare(0)}
           {this.renderSquare(1)}
